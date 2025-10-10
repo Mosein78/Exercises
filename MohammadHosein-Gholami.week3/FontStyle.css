@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'YekanBakh';
+	src:	url('../fonts/fonnts.com-YekanBakh-Bold.eot'); /* IE9 Compat Modes */
+	src:	url('../fonts/fonnts.com-YekanBakh-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../fonts/fonnts.com-YekanBakh-Bold.woff2') format('woff2'), /* Modern Browsers */
+			url('../fonts/fonnts.com-YekanBakh-Bold.woff') format('woff'), /* Modern Browsers */
+			url('../fonts/fonnts.com-YekanBakh-Bold.otf') format('opentype'), /* Open Type Font */	
+			url('../fonts/fonnts.com-YekanBakh-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
