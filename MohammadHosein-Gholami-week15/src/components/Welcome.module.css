@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.welcome {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(178, 139, 214);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+.welcome:hover {
+  box-shadow: 0 0 15px rgba(183, 0, 255, 0.6);
+  transform: scale(1.05);
+  background-color: rgb(192, 25, 243);
+}
+.welcome h1 {
+  color: rgb(252, 230, 230);
+  transition: all 0.3s ease;
+}
+.welcome h1:hover {
+  transform: scale(1.05);
+  color: rgba(255, 255, 255, 0.94);
+}
+.welcome p {
+  color: rgba(255, 255, 255, 0.648);
+  transition: all 0.3s ease;
+}
+.welcome p:hover {
+  transform: scale(1.05);
+  color: rgba(255, 255, 255, 0.94);
+}
+.welcome li{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(203, 131, 225);
+    cursor: pointer;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: all 0.3s ease;
+}
+.welcome li:hover {
+    box-shadow: 0 0 15px rgba(183, 0, 255, 0.6);
+    transform: scale(1.08);
+    background-color: rgb(212, 138, 234);
+  }
+.welcome li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}

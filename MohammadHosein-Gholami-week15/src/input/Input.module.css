@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(169, 129, 206);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+.input:hover {
+  box-shadow: 0 0 15px rgba(183, 0, 255, 0.6);
+  transform: scale(1.05);
+  background-color: rgb(192, 25, 243);
+}
+.input p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.input input {
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+  background-color: rgba(139, 63, 209, 0.559);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+.input input:hover {
+  transform: scale(1.05);
+}
+.input input:focus {
+  box-shadow: 0 0 15px rgba(210, 91, 246, 0.8);
+  transform: scale(1.08);
+}
+.input li {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(203, 131, 225);
+  cursor: pointer;
+  border-radius: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  transition: all 0.3s ease;
+}
+.input li:hover {
+  box-shadow: 0 0 15px rgba(183, 0, 255, 0.6);
+  transform: scale(1.08);
+  background-color: rgb(212, 138, 234);
+}
+.input li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+
