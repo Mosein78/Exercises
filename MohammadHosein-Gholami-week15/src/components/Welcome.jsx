@@ -7,7 +7,7 @@ function Welcome() {
         <h1>WELCOME TO MY PAGE</h1>
         <p>Do you want to find your City ?</p>
         <li>
-          <Link to="/">Click Here</Link>
+          <Link to="/search">Click Here</Link>
         </li>
       </div>
     </div>

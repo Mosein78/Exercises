@@ -23,7 +23,7 @@ function Input({ searchCity, setSearchCity, filteredCities }) {
           ))}
         </datalist>
         <li>
-          <Link to="/welcome">Back</Link>
+          <Link to="/">Back</Link>
         </li>
       </div>
     </div>
