@@ -1,0 +1,17 @@
+.contactList{
+  margin-bottom: 200px;
+}
+
+.contactList ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.contactList p {
+  text-align: center;
+  color: #555;
+  font-size: 18px;
+  margin-top: 20px;
+}
