@@ -1,0 +1,14 @@
+[
+  {
+    "id": "7552bc12-4b34-4924-ae56-95fbb0e0ccf7",
+    "name": "شعبون",
+    "price": 10000,
+    "quantity": 99
+  },
+  {
+    "id": "edda6a52-7c47-4ee8-91dc-5e1d90d9772b",
+    "name": "ناز",
+    "price": 2222,
+    "quantity": 9
+  }
+]

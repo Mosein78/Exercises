@@ -1,0 +1,19 @@
+:root {
+  font-family:"vazir" , sans-serif;
+  line-height: 1.5;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family:"vazir" , sans-serif;
+  box-sizing: border-box;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: auto;
+  background-color: #F2F2F2;
+}
+
