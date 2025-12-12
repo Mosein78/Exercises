@@ -4,6 +4,7 @@ import RegisterForm from "./pages/registerForm/RegisterForm";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import HomePage from "./pages/home/homepage/HomePage";
 import SecurityPage from "./components/security/SecurityPage";
+import NotFoundPage from "./pages/notfoundPage/NotFoundPage";
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
             <Route path="/homepage" element={<SecurityPage>
               <HomePage/>
             </SecurityPage>} />
+            <Route path="*" element={<NotFoundPage/>} />
+
           </Routes>
         </QueryClientProvider>
       </div>

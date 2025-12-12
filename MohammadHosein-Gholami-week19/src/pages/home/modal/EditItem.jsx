@@ -27,7 +27,7 @@ function EditItem({ click, item }) {
   });
 
   const { mutate, isLoading } = useEditItem();
-  
+
   const {
     register,
     handleSubmit,
@@ -55,8 +55,6 @@ function EditItem({ click, item }) {
       }
     );
   };
-  
-
 
   return (
     <div>

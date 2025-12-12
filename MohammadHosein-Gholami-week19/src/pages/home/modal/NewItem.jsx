@@ -43,9 +43,7 @@ function NewItem({ click }) {
       { name, price, quantity },
       {
         onSuccess: () => {
-          reset();
-          click();
-          
+          reset(), click();
         },
         onError: (err) => {
           if (err.response?.data?.message === "Invalid or expired token") {
